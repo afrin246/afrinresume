@@ -1,0 +1,76 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(247, 247, 223);
+    color: rgb(49, 51, 51);
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    
+}
+
+header img{
+    border-radius: 10%;
+    width: 112px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.name h1{
+    font-size: 28px;
+    border-bottom : 0px;
+    color: #2c3e50;
+}
+
+.name {
+    font-size: 15px;
+    color: grey;
+}
+
+h1{
+    font-size: 20px;
+    color: #1e272e;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+ol, ul{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.Education,
+.project,
+.skill,
+.lang {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
